@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "targets": "defaults" }],
+    "@babel/preset-typescript",
+    "@babel/preset-react",
+    "@babel/preset-flow"
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-modules-commonjs"
+  ]
+}
