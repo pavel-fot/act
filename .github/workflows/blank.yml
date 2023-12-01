@@ -2,12 +2,9 @@ name: Run ESLint on Pull Requests
 
 on:
   workflow_dispatch:
+    branches:
+      - aaa
     inputs:
-      branch:
-        type: string
-        default: 'aaa'
-        required: true
-        description: 'Branch'
       config:
         type: string
         default: 'app-dev3'
